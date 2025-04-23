@@ -7,7 +7,7 @@
     <link rel="icon" href="images/alien-icon.png" type="image/png" />
     <title>Jay MAFIA - Code with Attitude</title>
   </head>
-  <body class="bg-stone-950">
+  <body class="bg-stone-950 text-neutral-50/55">
     <header>
       <img
         src="images/jay-mafia-logo.png"
@@ -45,6 +45,19 @@
           </li>
 
           <li>
+            <a href="#resume"
+              ><img
+                src="images/my-resume.png"
+                alt="resume"
+                class="h-10 mx-auto justify-center flex"
+              /><span
+                class="text-xs text-neutral-50/55 mx-auto justify-center flex"
+                >My Resume</span
+              ></a
+            >
+          </li>
+
+          <li>
             <a href="#projects"
               ><img
                 src="images/projects-icon.png"
@@ -72,5 +85,108 @@
         </ul>
       </nav>
     </header>
+    <main>
+      <section class="md:h-[60vh] h-[50vh] w-full relative">
+        <div
+          class="absolute inset-0 flex flex-col items-center justify-center text-center"
+        >
+          <h1 class="text-3xl font-bold">Jay MAFIA</h1>
+          <h1 class="text-5xl font-bold mt-2">Code with Attitude</h1>
+          <p class="mt-4 text-lg">From Street Logic to Clean Code</p>
+        </div>
+      </section>
+
+      <section class="md:mx-25 sm:mx-15 mx-5 mt-10">
+        <div
+          class="grid grid-cols-1 md:grid-cols-3 gap-6 rounded-lg p-5 border-1 text-2xl text-center"
+        >
+          <div id="about" class="border-1 rounded-lg p-5">
+            <h1>About Me</h1>
+            <img
+              src="images/my-profile-pics.png"
+              alt="jay profile pics"
+              class="h-40 w-40 mx-auto justify-center flex rounded-full p-2 border-1 m-2"
+            />
+            <p class="text-justify text-sm">
+              I’m Jay Mafia, a self-driven web developer with a sharp edge and a
+              passion for turning raw ideas into sleek, functional websites. My
+              journey blends creativity, street smarts, and tech
+              discipline—writing clean code with character and intention. I
+              believe in building with purpose, learning fast, and delivering
+              real results. Whether it’s frontend flair or backend muscle, I
+              code with attitude and bring a unique energy to every project I
+              touch. Let’s build something that stands out.
+            </p>
+          </div>
+
+          <div id="skills" class="border-1 rounded-lg p-5">
+            <h1 class="m-5">My Skills</h1>
+
+            <div class="mb-4">
+              <div class="flex justify-between mb-1">
+                <span class="text-sm font-medium text-white">HTML & CSS</span>
+                <span class="text-sm font-medium text-neutral-50">90%</span>
+              </div>
+              <div class="w-full bg-neutral-700 rounded-full h-2.5">
+                <div
+                  class="bg-blue-500 h-2.5 rounded-full transition-all duration-1000 ease-in-out"
+                  style="width: 0"
+                  data-width="90%"
+                ></div>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <div class="flex justify-between mb-1">
+                <span class="text-sm font-medium text-white">Tailwind CSS</span>
+                <span class="text-sm font-medium text-neutral-50">80%</span>
+              </div>
+              <div class="w-full bg-neutral-700 rounded-full h-2.5">
+                <div
+                  class="bg-green-500 h-2.5 rounded-full transition-all duration-1000 ease-in-out"
+                  style="width: 0"
+                  data-width="80%"
+                ></div>
+              </div>
+            </div>
+
+            <div class="mb-4">
+              <div class="flex justify-between mb-1">
+                <span class="text-sm font-medium text-white">JavaScript</span>
+                <span class="text-sm font-medium text-neutral-50">70%</span>
+              </div>
+              <div class="w-full bg-neutral-700 rounded-full h-2.5">
+                <div
+                  class="bg-yellow-500 h-2.5 rounded-full transition-all duration-1000 ease-in-out"
+                  style="width: 0"
+                  data-width="70%"
+                ></div>
+              </div>
+            </div>
+          </div>
+
+          <div id="resume" class="border-1 rounded-lg p-5">
+            <h1 class="m-5">My Resume</h1>
+            <p class="text-justify text-sm">
+              Want the full breakdown? My resume lays it all out — from the
+              tools I wield to the projects that prove it. It’s packed with the
+              skills, experiences, and street-honed logic that power my clean
+              code. Whether you’re looking for a sharp frontend dev, a
+              problem-solving backend builder, or a full-stack force with
+              attitude — it’s all in there.
+            </p>
+            <a
+              href="/my-file.pdf"
+              download
+              class="text-blue-600 underline hover:text-blue-800 text-sm"
+            >
+              Download PDF
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
   </body>
 </html>
