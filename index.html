@@ -7,7 +7,7 @@
     <link rel="icon" href="images/alien-icon.png" type="image/png" />
     <title>Jay MAFIA - Code with Attitude</title>
   </head>
-  <body class="bg-stone-950 text-neutral-50/55">
+  <body class="bg-stone-950 text-neutral-50/55 font-poppins">
     <header>
       <img
         src="images/jay-mafia-logo.png"
@@ -26,7 +26,7 @@
               />
               <span
                 class="text-xs text-neutral-50/55 mx-auto justify-center flex"
-                >About Me</span
+                >About</span
               ></a
             >
           </li>
@@ -39,7 +39,7 @@
                 class="h-10 mx-auto justify-center flex"
               /><span
                 class="text-xs text-neutral-50/55 mx-auto justify-center flex"
-                >My Skills</span
+                >Skills</span
               ></a
             >
           </li>
@@ -52,7 +52,7 @@
                 class="h-10 mx-auto justify-center flex"
               /><span
                 class="text-xs text-neutral-50/55 mx-auto justify-center flex"
-                >My Resume</span
+                >Resume</span
               ></a
             >
           </li>
@@ -65,7 +65,7 @@
                 class="h-10 mx-auto justify-center flex"
               /><span
                 class="text-xs text-neutral-50/55 mx-auto justify-center flex"
-                >My Projects</span
+                >Projects</span
               ></a
             >
           </li>
@@ -78,7 +78,7 @@
                 class="h-10 mx-auto justify-center flex"
               /><span
                 class="text-xs text-neutral-50/55 mx-auto justify-center flex"
-                >Contact Me</span
+                >Contact</span
               ></a
             >
           </li>
@@ -101,7 +101,15 @@
           class="grid grid-cols-1 md:grid-cols-3 gap-6 rounded-lg p-5 border-1 text-2xl text-center"
         >
           <div id="about" class="border-1 rounded-lg p-5">
-            <h1>About Me</h1>
+            <img
+              src="images/about-me.png"
+              alt="about"
+              class="h-10 mx-auto justify-center flex"
+            />
+            <span
+              class="text-xs text-neutral-50/55 mx-auto justify-center flex mb-4"
+              >About</span
+            >
             <img
               src="images/my-profile-pics.png"
               alt="jay profile pics"
@@ -120,7 +128,15 @@
           </div>
 
           <div id="skills" class="border-1 rounded-lg p-5">
-            <h1 class="m-5">My Skills</h1>
+            <img
+              src="images/skills.png"
+              alt="skills"
+              class="h-10 mx-auto justify-center flex"
+            />
+            <span
+              class="text-xs text-neutral-50/55 mx-auto justify-center flex mb-4"
+              >Skills</span
+            >
 
             <div class="mb-4">
               <div class="flex justify-between mb-1">
@@ -166,7 +182,15 @@
           </div>
 
           <div id="resume" class="border-1 rounded-lg p-5">
-            <h1 class="m-5">My Resume</h1>
+            <img
+              src="images/my-resume.png"
+              alt="resume"
+              class="h-10 mx-auto justify-center flex"
+            />
+            <span
+              class="text-xs text-neutral-50/55 mx-auto justify-center flex mb-4"
+              >Resume</span
+            >
             <p class="text-justify text-sm">
               Want the full breakdown? My resume lays it all out — from the
               tools I wield to the projects that prove it. It’s packed with the
@@ -185,7 +209,140 @@
           </div>
         </div>
       </section>
+
+     
+
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+          <div class="h-4 w-full absolute"></div>
+        </div>
+      </section>
+
+      <section
+        id="contact"
+        class="m-4 relative inset-0 flex flex-col items-center justify-center text-center border-1 p-4"
+      >
+        <img
+          src="images/contact.png"
+          alt="contact"
+          class="h-10 mx-auto justify-center flex"
+        />
+        <span
+          class="text-xs text-neutral-50/55 mx-auto justify-center flex mb-4"
+          >Contact</span
+        >
+        <div class="max-w-md mx-auto bg-neutral-800 p-8 rounded-lg shadow-lg">
+          <form action="" class="space-y-4">
+            <div>
+              <input
+                type="text"
+                id="name"
+                placeholder="Enter your full name"
+                class="w-full border border-neutral-600 rounded-lg p-3 bg-neutral-900 text-neutral-50 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+              />
+            </div>
+
+            <div>
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter your email"
+                class="w-full border border-neutral-600 rounded-lg p-3 bg-neutral-900 text-neutral-50 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+              />
+            </div>
+
+            <div>
+              <textarea
+                id="message"
+                placeholder="Enter your message"
+                rows="4"
+                class="w-full border border-neutral-600 rounded-lg p-3 bg-neutral-900 text-neutral-50 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+              ></textarea>
+            </div>
+
+            <div>
+              <button
+                type="submit"
+                class="w-full bg-indigo-500 text-white font-medium py-3 cursor-pointer rounded-full hover:bg-indigo-600 transition duration-300"
+              >
+                Send
+              </button>
+            </div>
+          </form>
+        </div>
+        <span class="text-xs mt-4 mx-auto flex justify-center"
+          >Or Connect On:</span
+        >
+        <div class="flex text-white font-bold text-lg justify-center m-4">
+          <a href="https://tiktok.com/@callmejaymafia" target="_blank"
+            ><img
+              src="social-icons/tiktok-icon.png"
+              alt="tiktok-icon"
+              class="h-10 mx-auto justify-center flex"
+            />
+          </a>
+
+          <a href="https://wa.me/+2347043335373" target="_blank"
+            ><img
+              src="social-icons/whatsapp-icon.png"
+              alt="whatsapp-icon"
+              class="h-10 mx-auto justify-center flex"
+            />
+          </a>
+
+          <a href="https://t.me/callmejaymafia" target="_blank"
+            ><img
+              src="social-icons/telegram-icon.png"
+              alt="telegram-icon"
+              class="h-10 mx-auto justify-center flex"
+            />
+          </a>
+
+          <a href="https://instagram.com/callmejaymafia" target="_blank"
+            ><img
+              src="social-icons/instagram-icon.png"
+              alt="instagram-icon"
+              class="h-10 mx-auto justify-center flex"
+            />
+          </a>
+
+          <a href="https://facebook.com/callmejaymafia" target="_blank"
+            ><img
+              src="social-icons/facebook-icon.png"
+              alt="facebook-icon"
+              class="h-10 mx-auto justify-center flex"
+            />
+          </a>
+
+          <a href="https://github.com/callmejaymafia" target="_blank"
+            ><img
+              src="social-icons/github-icon.png"
+              alt="github-icon"
+              class="h-10 mx-auto justify-center flex"
+            />
+          </a>
+
+          <a href="https://www.linkedin.com/in/callmejaymafia/" target="_blank"
+            ><img
+              src="social-icons/linkedin-icon.png"
+              alt="linkedin-icon"
+              class="h-10 mx-auto justify-center flex"
+            />
+          </a>
+
+          <a href="https://x.com/callmejaymafia" target="_blank"
+            ><img
+              src="social-icons/x-icon.png"
+              alt="x-icon"
+              class="h-10 mx-auto justify-center flex"
+            />
+          </a>
+        </div>
+      </section>
     </main>
+
+    <footer class="m-4 text-center text-sm italic">
+      <p>&copy; 2025 Jay MAFIA. All rights reserved.</p>
+    </footer>
 
     <script src="script.js"></script>
   </body>
