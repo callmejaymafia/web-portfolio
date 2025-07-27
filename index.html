@@ -305,12 +305,19 @@
           class="text-xs text-neutral-50/55 mx-auto justify-center flex mb-4"
           >Contact</span
         >
+
         <div class="max-w-md mx-auto bg-neutral-800 p-8 rounded-lg shadow-lg">
-          <form action="" class="space-y-4">
+          <form
+            id="my-form"
+            action="https://formspree.io/f/xldlneza"
+            method="POST"
+            class="space-y-4"
+          >
             <div>
               <input
                 type="text"
                 id="name"
+                name="name"
                 placeholder="Enter your full name"
                 class="w-full border border-neutral-600 rounded-lg p-3 bg-neutral-900 text-neutral-50 focus:outline-none focus:ring-2 focus:ring-indigo-500"
               />
@@ -320,6 +327,7 @@
               <input
                 type="email"
                 id="email"
+                name="email"
                 placeholder="Enter your email"
                 class="w-full border border-neutral-600 rounded-lg p-3 bg-neutral-900 text-neutral-50 focus:outline-none focus:ring-2 focus:ring-indigo-500"
               />
@@ -328,6 +336,7 @@
             <div>
               <textarea
                 id="message"
+                name="message"
                 placeholder="Enter your message"
                 rows="4"
                 class="w-full border border-neutral-600 rounded-lg p-3 bg-neutral-900 text-neutral-50 focus:outline-none focus:ring-2 focus:ring-indigo-500"
@@ -344,6 +353,7 @@
             </div>
           </form>
         </div>
+
         <span class="text-xs mt-4 mx-auto flex justify-center"
           >Or Connect On:</span
         >
